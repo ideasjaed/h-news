@@ -1,0 +1,22 @@
+.container-card {
+    border: 1px solid #979797;
+    border-radius: 6px;
+    background-color: #fff;
+    height: 80px;
+    display: flex;
+    padding: 14px 16px;
+    .contend-side {
+        width: 80%;
+        .time-post {
+            display: flex;
+            align-items: center;
+        }
+    }
+    .favorite-side {
+        width: 20%;
+        background-color: #606060;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
